@@ -1,5 +1,5 @@
-# Lemon
-Lemon is a framework for building Javascript runtime software, built on the Chrome V8 Javascript Engine.
+# Orange
+Orange is a framework for building Javascript runtime software, built on the Chakra Javascript Engine.
 
 * __C++ bindings__
 
@@ -7,17 +7,17 @@ Lemon is a framework for building Javascript runtime software, built on the Chro
 
 * __Object oriented__
 
-	Lemon lets you build your applications with a simple and scalable object oriented approach.
+	Orange lets you build your applications with a simple and scalable object oriented approach.
 
 * __Single and multi threaded__
 	
-	Lemon runs on a single thread by default but has support for running on multiple threads.
+	Orange runs on a single thread by default but has support for running on multiple threads.
 	
 Video introduction: https://www.youtube.com/watch?v=5fWIf2A6Z_s
 
 ## Example
 
-A simple example of an application written in Lemon looks like this:
+A simple example of an application written in Orange looks like this:
 
 ```c++
 void App::Start(int argc, char* argv[]) {
@@ -51,22 +51,22 @@ __The example does the following:__
 
 _A context is an execution environment that allows Javascript to be executed inside the virtual machine._
 	
-## Installing Lemon
+## Installing Orange
 
-Lemon currently has build support for Linux only.
+Orange currently has build support for Linux only.
 
 __Download the repo__
 
-``` git clone https://github.com/nordin-johan/lemon.git ```
+``` git clone https://github.com/mrGoodWolf/Orange.git ```
 
 __Navigate to the directory__
 
-```cd lemon```
+```cd Orange```
 
 __Build__
 
 ```make```
 
-You can now run ```./lemon App.js``` in your terminal to try it out, it should print the current version of Lemon.
+You can now run ```./Orange App.js``` in your terminal to try it out, it should print the current version of Orange.
 
-<a href="https://github.com/nordin-johan/lemon/blob/master/DOCUMENTATION.md">Read the docs</a>
+
